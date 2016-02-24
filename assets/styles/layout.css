@@ -1,8 +1,29 @@
 <!-- tropiteal #00A8C6, teal drop #40C0CB, whitetrash #F9F2E7, atomic bikini #AEE239, feeble week #8FBE00 -->
+
 body {
   background-color: #F9F2E7;
 }
 
 h1 {
-  color: #00A8C6
+  color: #00A8C6;
+  margin: 0 auto;
+  font-family: josefinSlab;
+}
+
+@font-face {
+  font-family: josefinSlab;
+  src: url("../assets/fonts/josefinslab/JosefinSlab-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: josefinSlab;
+  src: url("../assets/fonts/josefinslab/JosefinSlab-SemiBold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: josefinSlab;
+  src: url("../assets/fonts/josefinslab/JosefinSlab-Italic.ttf");
+  font-weight: italic;
 }
