@@ -1,29 +1,59 @@
 <!-- tropiteal #00A8C6, teal drop #40C0CB, whitetrash #F9F2E7, atomic bikini #AEE239, feeble week #8FBE00 -->
 
 body {
+}
+
+.container {
+  width: 80%;
+  border: 1px solid black;
   background-color: #F9F2E7;
+}
+
+.content {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: #AEE239;
 }
 
 h1 {
   color: #00A8C6;
-  margin: 0 auto;
   font-family: josefinSlab;
+  text-align: center;
 }
 
 @font-face {
   font-family: josefinSlab;
-  src: url("../assets/fonts/josefinslab/JosefinSlab-Regular.ttf");
+  src: url("../../assets/fonts/josefinslab/JosefinSlab-Regular.ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: josefinSlab;
-  src: url("../assets/fonts/josefinslab/JosefinSlab-SemiBold.ttf");
+  src: url("../../assets/fonts/josefinslab/JosefinSlab-SemiBold.ttf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: josefinSlab;
-  src: url("../assets/fonts/josefinslab/JosefinSlab-Italic.ttf");
+  src: url("../../assets/fonts/josefinslab/JosefinSlab-Italic.ttf");
   font-weight: italic;
+}
+
+@font-face {
+  font-family: josefinSans;
+  src: url("../../assets/fonts/josefinsans/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: josefinSans;
+  src: url("../../assets/fonts/josefinsans/JosefinSans-SemiBold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: josefinSans;
+  src: url("../../assets/fonts/josefinsans/JosefinSans-Italic.ttf");
+  font-style: italic;
 }
