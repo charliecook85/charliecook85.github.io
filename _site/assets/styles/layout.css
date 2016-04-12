@@ -1,5 +1,5 @@
 /* tropiteal #00A8C6, teal drop #40C0CB, whitetrash #F9F2E7, atomic bikini #AEE239, feeble week #8FBE00 */
-/* tropiteal #00A8C6, dir. contrad. #0096B1, noises #F4F5ED, feeble week #8FBE00, slate #454748 */
+/* tropiteal #00A8C6, dir. contrad. #0096B1, noises #F4F5ED, feeble week #8FBE00, slate #454748 -> http://www.colourlovers.com/palette/3016368/Idea_Inspiration */
 
 @font-face {
   font-family: josefinSlab;
@@ -52,17 +52,29 @@ p {
   font-family: josefinSans;
 }
 
-.container {
-  max-width: 100%;
-  /* border: 1px solid blue; */
-  margin: 20px;
+.header h1 {
+  margin: 10px;
 }
 
 .content {
-  /* border: 1px solid red; */
-  width: 75%;
+  max-width: 100%;
+  height: 100%;
 }
 
-.sidebar {
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
 
+.footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer p {
+  font-family: josefinSlab;
+  text-align: center;
 }
