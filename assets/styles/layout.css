@@ -1,33 +1,5 @@
-<!-- tropiteal #00A8C6, teal drop #40C0CB, whitetrash #F9F2E7, atomic bikini #AEE239, feeble week #8FBE00 -->
-
-body {
-  background: #000;
-  color: #fff;
-}
-
-/* .content {
-  border: 1px solid red;
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-  background-color: red;
-}
-
-.container {
-  width: 100%;
-  margin: auto;
-  border: 1px solid black;
-  background-color: #F9F2E7;
-}
-
-
-
-h1 {
-  color: #00A8C6;
-  font-family: josefinSlab;
-  text-align: center;
-}
-*/
+/* tropiteal #00A8C6, teal drop #40C0CB, whitetrash #F9F2E7, atomic bikini #AEE239, feeble week #8FBE00 */
+/* tropiteal #00A8C6, dir. contrad. #0096B1, noises #F4F5ED, feeble week #8FBE00, slate #454748 */
 
 @font-face {
   font-family: josefinSlab;
@@ -62,4 +34,35 @@ h1 {
   font-family: josefinSans;
   src: url("../../assets/fonts/josefinsans/JosefinSans-Italic.ttf");
   font-style: italic;
+}
+
+body {
+  background: #F4F5ED;
+  color: #454748;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: josefinSlab;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-family: josefinSans;
+}
+
+.container {
+  max-width: 100%;
+  /* border: 1px solid blue; */
+  margin: 20px;
+}
+
+.content {
+  /* border: 1px solid red; */
+  width: 75%;
+}
+
+.sidebar {
+
 }
