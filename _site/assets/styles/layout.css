@@ -39,12 +39,13 @@
 html {
   font-size: 16px;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background: #F4F5ED;
   color: #454748;
-  margin: 0 auto;
   font-size: 87.5%; /* 1em = 10px / 87.5% of 16 = 14px */
 }
 
@@ -52,7 +53,8 @@ h1 {
   font-family: josefinSlab;
   text-align: center;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 300%;
+  margin: 0;
 }
 
 p {
@@ -60,29 +62,43 @@ p {
 }
 
 .header h1 {
-  margin: 10px;
+  padding: 10px;
 }
 
 .site {
-  max-width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  height: auto;
 }
 
 .main {
   width: 80%;
-  margin: 0 auto;
+  display: inline;
+  float: left;
+}
+
+.sidebar {
+  width: 20%;
+  display: inline;
+  float: right;
 }
 
 .footer {
   clear: both;
   position: fixed;
   bottom: 0;
-  margin: 0 auto;
   width: 100%;
 }
 
 .footer p {
   font-family: josefinSlab;
   text-align: center;
+}
+
+.clear {
+  clear: both;
+  line-height: 0;
 }
 
 /* ----------------------------------------
